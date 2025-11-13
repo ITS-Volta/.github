@@ -21,7 +21,7 @@ Il corso prevede lezioni teoriche e attività di laboratorio su tre progetti rea
 
 ---
 
-## 🧩 **Lezione 1 – Introduzione e Normative (✔ verde)**
+## 🧩 **Lezione 1 – Introduzione e Normative ✔**
 
 Contenuti:
 - Dispositivi Medici Software
@@ -37,7 +37,7 @@ Contenuti:
 
 ---
 
-## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti (✔ verde)**
+## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti ✔**
 
 - Raccolta dei requisiti
 - Identificazione stakeholder
