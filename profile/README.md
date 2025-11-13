@@ -1,29 +1,148 @@
-## CORSO  UF 13.3 DISPOSITIVI MEDICI SOFTWARE, APP E MHEALTH
+# 📘 **Corso UF 13.3 – Dispositivi Medici Software, App e mHealth**
+### Docente: **Ing. Alessandro Pellegrino**
+### A.S. 2025/2026
 
+---
 
-# LEZIONE 1: INTRODUZIONE GENERALE, NORMATIVE
+## 🧭 Programma del Corso
 
+Il corso introduce gli studenti ai fondamenti dello sviluppo software in ambito sanitario, con particolare attenzione a:
 
+- Dispositivi Medici Software (MDR 2017/745)
+- Ciclo di vita del software secondo IEC 62304
+- Gestione del rischio (ISO 14971)
+- Sistemi qualità (ISO 13485)
+- App mHealth e applicazioni mobile
+- Raccolta e analisi dei requisiti
+- Progettazione API, backend e frontend
+- Pattern di sviluppo moderni (Django + Android)
 
-## STRUTTURA TEAMS
+Il corso prevede lezioni teoriche e attività di laboratorio su tre progetti realizzati dagli studenti, più un progetto demo presentato dal docente come esempio guida.
 
-# TEAM 1
+---
 
-Mohamed Daloul
-Francesco Santoianni
-Aichetou Agouda
-Veronica rampazzo
+## 🧩 **Lezione 1 – Introduzione e Normative (✔ verde)**
 
-# TEAM 2
+Contenuti:
+- Dispositivi Medici Software
+- App mHealth e software ad uso clinico
+- MDR 2017/745
+- IEC 62304
+- ISO 14971
+- ISO 13485
+- EN 82304-1
+- MDCG Guidelines
+- Tracciabilità
+- Introduzione all’analisi dei requisiti
 
-Lorenzo Del Cont Bernard
-Matteo Mastromarino
-Alessia Jurman
-Alex Vucec
+---
 
-# TEAM 3
+## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti (✔ verde)**
 
-Silvestrini Davide
-Angelo Miranda
-Saverio Sironi
-Tommaso Perco
+- Raccolta dei requisiti
+- Identificazione stakeholder
+- Tipologie di requisiti
+- SRS (Software Requirements Specification)
+- Matrice di Tracciabilità
+- Presentazione dei progetti
+- Presentazione progetto demo
+
+---
+
+# 🎓 **Progetti degli Studenti**
+
+## **Progetto 1 – Dashboard del Medico (VitalBoard)**
+
+Il medico necessita di una vista strutturata dei parametri vitali dei pazienti.  
+La dashboard permetterà di:
+- visualizzare storico misurazioni
+- analizzare grafici di andamento
+- vedere segnalazioni critiche
+- integrare informazioni provenienti dagli altri progetti
+
+---
+
+## **Progetto 2 – App Infermiere (NurseCollector)**
+
+Durante le visite domiciliari, l’infermiere registra:
+- pressione
+- saturazione
+- temperatura
+- sintomi
+- eventuali foto
+
+I dati vengono inviati al sistema e resi disponibili al medico nel Progetto 1.
+
+---
+
+## **Progetto 3 – Diario Clinico e Terapie (CareDiary)**
+
+Il paziente può:
+- annotare sintomi e note quotidiane
+- monitorare dolore, umore, condizioni generali
+- impostare promemoria della terapia
+
+Dati e promemoria si integrano con la dashboard del medico.
+
+---
+
+# 🌟 **Progetto Demo – WoundMonitor Pro**
+
+Il paziente o l’infermiere fotografa una ferita, lesione o neo.  
+La foto e la nota vengono salvate in uno storico.  
+Il medico visualizza l’evoluzione e lascia un giudizio semplice:
+- Monitorare
+- Consigliare visita
+- Valutazione urgente
+
+Nessuna diagnosi automatica → solo supporto informativo.
+
+---
+
+# 👥 **Team di Lavoro**
+
+### TEAM 1
+| Studente | User Git | Ruolo |
+|---------|----------|-------|
+| Mohamed Daloul | | |
+| Francesco Santoianni | | |
+| Aichetou Agouda | | |
+| Veronica Rampazzo | | |
+
+### TEAM 2
+| Studente | User Git | Ruolo |
+|---------|----------|-------|
+| Lorenzo Del Cont Bernard | | |
+| Matteo Mastromarino | | |
+| Alessia Jurman | | |
+| Alex Vucec | | |
+
+### TEAM 3
+| Studente | User Git | Ruolo |
+|---------|----------|-------|
+| Silvestrini Davide | | |
+| Angelo Miranda | | |
+| Saverio Sironi | | |
+| Tommaso Perco | | |
+
+---
+
+# 🗓️ **Calendario del Corso**
+
+| Giornata | Data | Orario | Ore | Stato |
+|----------|------|--------|------|--------|
+| venerdì | **31/10/2025** | 09:00–13:00 | 4 | ✔ |
+| venerdì | **14/11/2025** | 09:00–13:00 | 4 | ✔ |
+| venerdì | 21/11/2025 | 09:00–13:00 | 4 | |
+| venerdì | 24/11/2025 | 09:00–13:00 | 4 | |
+| venerdì | 05/12/2025 | 09:00–13:00 | 4 | |
+| giovedì | 08/01/2026 | 14:00–18:00 | 4 | |
+| venerdì | 09/01/2026 | 14:00–18:00 | 4 | |
+| martedì | 13/01/2026 | 14:00–18:00 | 4 | |
+| giovedì | 15/01/2026 | 14:00–18:00 | 4 | |
+| martedì | 20/01/2026 | 14:00–18:00 | 4 | |
+| giovedì | 22/01/2026 | 14:00–18:00 | 4 | |
+| martedì | 27/01/2026 | 14:00–18:00 | 4 | |
+| giovedì | 29/01/2026 | 09:00–13:00 | 4 | |
+| mercoledì | 04/02/2026 | 09:00–13:00 | 4 | |
+| venerdì | 06/02/2026 | 09:00–13:00 | 4 | |
