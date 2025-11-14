@@ -62,9 +62,9 @@ La dashboard permetterà di:
 
 ---
 
-## **Progetto 2 – App Infermiere (NurseCollector)**
+## **Progetto 2 – App raccolta dati (DataCollector)**
 
-Durante le visite domiciliari, l’infermiere registra:
+Durante le visite domiciliari, l’infermiere (o paziente o wereable) registra:
 - pressione
 - saturazione
 - temperatura
@@ -109,7 +109,7 @@ Nessuna diagnosi automatica → solo supporto informativo.
 | Aichetou Agouda | aaisha-destiny | Analista software, Software Developer |
 | Veronica Rampazzo | Vero335 |  Analista software, Software Developer |
 
-### TEAM 2 - Diario clinico
+### TEAM 2 - Progetto 3 (Diario clinico)
 | Studente | User Git | Ruolo |
 |---------|----------|-------|
 | Lorenzo Del Cont Bernard | Lollooo04 | Analista Software, Sviluppo Software |
@@ -117,7 +117,7 @@ Nessuna diagnosi automatica → solo supporto informativo.
 | Alessia Jurman | alejpeg | Project Manager, Sviluppo  Software |
 | Alex Vucec | Hellux-H | Sviluppo Software |
 
-### TEAM 3 - Data Collector
+### TEAM 3 -Progetto 2 (Data Collector)
 | Studente | User Git | Ruolo |
 |---------|----------|-------|
 | Silvestrini Davide | ItsDaWae | Analista Software, Sviluppo Software |
