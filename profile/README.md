@@ -86,7 +86,7 @@ Dati e promemoria si integrano con la dashboard del medico.
 
 ---
 
-# 🌟 **Progetto Demo – WoundMonitor Pro**
+# 🌟 **Progetto Demo – WoundMonitor**
 
 Il paziente o l’infermiere fotografa una ferita, lesione o neo.  
 La foto e la nota vengono salvate in uno storico.  
@@ -101,29 +101,29 @@ Nessuna diagnosi automatica → solo supporto informativo.
 
 # 👥 **Team di Lavoro**
 
-### TEAM 1
+### TEAM 1 - Progetto 1 (VitalBoard)
 | Studente | User Git | Ruolo |
 |---------|----------|-------|
-| Mohamed Daloul | | |
-| Francesco Santoianni | | |
-| Aichetou Agouda | | |
-| Veronica Rampazzo | | |
+| Mohamed Daloul | MomoDal | Project Manager |
+| Francesco Santoianni | santofrancesco | Software Developer |
+| Aichetou Agouda | aaisha-destiny | Analista software, Software Developer |
+| Veronica Rampazzo | Vero335 |  Analista software, Software Developer |
 
-### TEAM 2
+### TEAM 2 - Diario clinico
 | Studente | User Git | Ruolo |
 |---------|----------|-------|
-| Lorenzo Del Cont Bernard | | |
-| Matteo Mastromarino | | |
-| Alessia Jurman | | |
-| Alex Vucec | | |
+| Lorenzo Del Cont Bernard | Lollooo04 | Analista Software, Sviluppo Software |
+| Matteo Mastromarino | matteo | Analista Software |
+| Alessia Jurman | alejpeg | Project Manager, Sviluppo  Software |
+| Alex Vucec | Hellux-H | Sviluppo Software |
 
-### TEAM 3
+### TEAM 3 - Data Collector
 | Studente | User Git | Ruolo |
 |---------|----------|-------|
-| Silvestrini Davide | | |
-| Angelo Miranda | | |
-| Saverio Sironi | | |
-| Tommaso Perco | | |
+| Silvestrini Davide | ItsDaWae | Analista Software, Sviluppo Software |
+| Angelo Miranda | MirandaAngelo | Analista Software |
+| Saverio Sironi | GitSaveS2 | Project Manager |
+| Tommaso Perco | DeeDyne | Sviluppo Software |
 
 ---
 
