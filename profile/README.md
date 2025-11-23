@@ -21,34 +21,6 @@ Il corso prevede lezioni teoriche e attività di laboratorio su tre progetti rea
 
 ---
 
-## 🧩 **Lezione 1 – Introduzione e Normative ✔**
-
-Contenuti:
-- Dispositivi Medici Software
-- App mHealth e software ad uso clinico
-- MDR 2017/745
-- IEC 62304
-- ISO 14971
-- ISO 13485
-- EN 82304-1
-- MDCG Guidelines
-- Tracciabilità
-- Introduzione all’analisi dei requisiti
-
----
-
-## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti ✔**
-
-- Raccolta dei requisiti
-- Identificazione stakeholder
-- Tipologie di requisiti
-- SRS (Software Requirements Specification)
-- Matrice di Tracciabilità
-- Presentazione dei progetti
-- Presentazione progetto demo
-
----
-
 # 🎓 **Progetti degli Studenti**
 
 ## **Progetto 1 – Dashboard del Medico (VitalBoard)**
@@ -146,3 +118,67 @@ Nessuna diagnosi automatica → solo supporto informativo.
 | giovedì | 29/01/2026 | 09:00–13:00 | 4 | |
 | mercoledì | 04/02/2026 | 09:00–13:00 | 4 | |
 | venerdì | 06/02/2026 | 09:00–13:00 | 4 | |
+
+
+## 🧩 **Lezione 1 – Introduzione e Normative ✔**
+
+Contenuti:
+- Dispositivi Medici Software
+- App mHealth e software ad uso clinico
+- MDR 2017/745
+- IEC 62304
+- ISO 14971
+- ISO 13485
+- EN 82304-1
+- MDCG Guidelines
+- Tracciabilità
+- Introduzione all’analisi dei requisiti
+
+---
+
+## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti ✔**
+
+Contenuti:
+- Raccolta dei requisiti
+- Identificazione stakeholder
+- Tipologie di requisiti
+- SRS (Software Requirements Specification)
+- Matrice di Tracciabilità
+- Presentazione dei progetti
+- Presentazione progetto demo
+
+---
+
+## 🧩 **Lezione 3 – Architettura, Database, SQL e API**
+
+Contenuti:
+- Architettura software moderna  
+- Monoliti vs Microservizi  
+- Pattern architetturali (MVC, Layered, Service-Oriented)  
+- Comunicazione tra componenti  
+- API REST: principi, metodi HTTP, status code  
+- Introduzione ai Database relazionali  
+- Modellazione ER e struttura delle tabelle  
+- Chiavi primarie, chiavi esterne, vincoli, relazioni  
+- Introduzione al linguaggio SQL  
+- SELECT, INSERT, UPDATE, DELETE – panoramica completa  
+- Esercitazione pratica: creazione tabelle e query reali  
+- Introduzione agli indici e alle prestazioni di base  
+
+---
+
+## 🧩 **Lezione 4 – Programmazione in Python + Introduzione a Django**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Sintassi base di Python (variabili, tipi, funzioni)
+- Strutture dati principali (liste, dict, tuple, set)
+- Esecuzione condizionale e cicli  
+- Moduli, package e import  
+- Gestione degli errori (try/except)  
+- Introduzione alle indentazioni (regola fondamentale in Python)  
+- Esercitazioni pratiche (20 piccoli programmi)  
+- Introduzione al framework Django  
+- Views, URL routing, templates  
+- Differenze tra Flask e Django  
+- Panoramica su ORM e modelli Django
