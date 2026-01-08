@@ -149,7 +149,7 @@ Contenuti:
 
 ---
 
-## 🧩 **Lezione 3 – Architettura, Database, SQL e API**
+## 🧩 **Lezione 3 – Architettura, Database, SQL e API ✔**
 
 Contenuti:
 - Architettura software moderna  
@@ -167,7 +167,7 @@ Contenuti:
 
 ---
 
-## 🧩 **Lezione 4 – Programmazione in Python + Introduzione a Django**
+## 🧩 **Lezione 4 – Programmazione in Python + Introduzione a Django ✔**
 
 Contenuti:
 - Esercitazione pratica di Python e Django
@@ -183,7 +183,7 @@ Contenuti:
 - Differenze tra Flask e Django  
 - Panoramica su ORM e modelli Django
 
-## 🧩 **Lezione 5 – Django e Laboratorio Progetti**
+## 🧩 **Lezione 5 – Django e Laboratorio Progetti ✔**
 
 Contenuti:
 - Esercitazione pratica di Python e Django
