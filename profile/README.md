@@ -112,7 +112,7 @@ Nessuna diagnosi automatica → solo supporto informativo.
 | venerdì | **09/01/2026** | 14:00–18:00 | 4 | ✔ |
 | lunedì |  **12/01/2026** | 14:00–18:00 | 4 | ✔ |
 | martedì | **13/01/2026** | 14:00–18:00 | 4 | ✔ |
-| giovedì | 15/01/2026 | 14:00–18:00 | 4 | |
+| giovedì | **15/01/2026** | 14:00–18:00 | 4 | ✔ |
 | giovedì | 22/01/2026 | 14:00–18:00 | 4 | |
 | martedì | 27/01/2026 | 14:00–18:00 | 4 | |
 | giovedì | 29/01/2026 | 09:00–13:00 | 4 | |
@@ -188,3 +188,39 @@ Contenuti:
 Contenuti:
 - Esercitazione pratica di Python e Django
 - Laboratorio su progetti di gruppo
+
+## 🧩 **Lezione 6 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Models in Django
+
+## 🧩 **Lezione 7 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Views e urls in Django
+
+## 🧩 **Lezione 8 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Query, Views e Template in Django
+
+## 🧩 **Lezione 9 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Template: HTML, JS e CSS in Django
+
+## 🧩 **Lezione 10 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Analisi dei rischi
+
