@@ -224,3 +224,33 @@ Contenuti:
 - Laboratorio su progetti di gruppo
 - Analisi dei rischi
 
+## 🧩 **Lezione 11 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Fascicolo Tecnico
+
+
+## 🧩 **Lezione 12 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+- Unit test
+
+
+## 🧩 **Lezione 13 – Django e Laboratorio Progetti ✔**
+
+Contenuti:
+- Esercitazione pratica di Python e Django
+- Laboratorio su progetti di gruppo
+
+
+## 🧩 **Lezione 14 – Metodologie di sviluppo e simulazione esame ✔**
+
+Contenuti:
+- Laboratorio su progetti di gruppo
+- Metodologie di sviluppo software (WaterFall & Agile)
+- Simulazione prova d'esame
+
