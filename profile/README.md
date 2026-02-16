@@ -117,7 +117,7 @@ Nessuna diagnosi automatica → solo supporto informativo.
 | giovedì | **29/01/2026** | 09:00–13:00 | 4 | ✔ |
 | venerdì | **30/01/2026** | 14:00–18:00 | 4 | ✔ |
 | mercoledì | **04/02/2026** | 09:00–13:00 | 4 | ✔ |
-| venerdì | 06/02/2026 | 09:00–13:00 | 4 | |
+| venerdì | **06/02/2026** | 09:00–13:00 | 4 | ✔ |
 
 
 ## 🧩 **Lezione 1 – Introduzione e Normative ✔**
