@@ -1,256 +1,229 @@
-# 📘 **Corso UF 13.3 – Dispositivi Medici Software, App e mHealth**
-### Docente: **Ing. Alessandro Pellegrino**
-### A.S. 2025/2026
+# 📘 Corso UF 13.3 - Dispositivi Medici Software, App e mHealth
+
+**Docente:** Ing. Alessandro Pellegrino  
+**Anno formativo:** 2026/2027  
+**Durata complessiva:** 60 ore  
+**Stato aggiornamento:** 8 ottobre 2026
 
 ---
 
-## 🧭 Programma del Corso
+## 🧭 Obiettivi e programma del corso
 
-Il corso introduce gli studenti ai fondamenti dello sviluppo software in ambito sanitario, con particolare attenzione a:
+Il corso introduce alla progettazione e allo sviluppo di **dispositivi medici software (SaMD)** attraverso un percorso orientato al lavoro, che integra aspetti normativi, ingegneria del software e laboratorio pratico.
 
-- Dispositivi Medici Software (MDR 2017/745)
-- Ciclo di vita del software secondo IEC 62304
-- Gestione del rischio (ISO 14971)
-- Sistemi qualità (ISO 13485)
-- App mHealth e applicazioni mobile
-- Raccolta e analisi dei requisiti
-- Progettazione API, backend e frontend
-- Pattern di sviluppo moderni (Django + Android)
+Gli studenti impareranno a partire da uno scenario clinico, definire una **destinazione d'uso**, raccogliere requisiti verificabili, progettare un'architettura, sviluppare un prototipo e documentare le scelte effettuate.
 
-Il corso prevede lezioni teoriche e attività di laboratorio su tre progetti realizzati dagli studenti, più un progetto demo presentato dal docente come esempio guida.
+### Argomenti principali
 
----
+- **Normativa e qualità:** Regolamento (UE) 2017/745 (MDR), qualificazione e classificazione del software medicale, IEC 62304, ISO 14971, ISO 13485, IEC 82304-1 e linee guida MDCG.
+- **Analisi dei requisiti:** stakeholder, elicitation, requisiti utente, funzionali, non funzionali, di sicurezza e regolatori, SRS e tracciabilità.
+- **Architettura software:** architetture a livelli, monolite e microservizi, modello C4, componenti, flussi di dati, interfacce e decisioni progettuali.
+- **Sviluppo applicativo:** database relazionali, SQL, API REST, backend **Python/Django** e frontend web.
+- **Sicurezza e dati sanitari:** autenticazione, autorizzazione, minimizzazione dei dati, GDPR, controllo degli accessi e gestione degli errori.
+- **Rischio e verifiche:** identificazione dei pericoli, situazioni pericolose, controlli del rischio, test, verifica e validazione.
+- **Processo di sviluppo:** Agile, Git, issue tracking, code review e documentazione del progetto.
+- **Documentazione regolatoria:** struttura e contenuti essenziali del fascicolo tecnico, evidenze e matrice di tracciabilità.
 
-# 🎓 **Progetti degli Studenti**
-
-## **Progetto 1 – Dashboard del Medico (VitalBoard)**
-
-Il medico necessita di una vista strutturata dei parametri vitali dei pazienti.  
-La dashboard permetterà di:
-- visualizzare storico misurazioni
-- analizzare grafici di andamento
-- vedere segnalazioni critiche
-- integrare informazioni provenienti dagli altri progetti
+L'attività di laboratorio ruota attorno a **quattro progetti di gruppo**. L'obiettivo non è realizzare un prodotto commercializzabile o certificato, ma sperimentare in modo realistico il processo di sviluppo e documentazione di un software con una destinazione d'uso medica.
 
 ---
 
-## **Progetto 2 – App raccolta dati (DataCollector)**
+## 🎓 Progetti degli studenti
 
-Durante le visite domiciliari, l’infermiere (o paziente o wereable) registra:
-- pressione
-- saturazione
-- temperatura
-- sintomi
-- eventuali foto
+Ogni gruppo sviluppa un **prototipo didattico di SaMD** con uno scenario clinico definito, utenti identificati e funzionalità verificabili. Tutti i progetti prevedono:
 
-I dati vengono inviati al sistema e resi disponibili al medico nel Progetto 1.
+- **Database relazionale** per utenti, osservazioni, dati clinici e storico delle operazioni.
+- **Backend Django** con logica applicativa, validazione dei dati e API REST.
+- **Frontend web** per l'interazione con paziente e/o personale sanitario.
+- **Autenticazione e autorizzazione** con ruoli e permessi coerenti.
+- **Documentazione tecnica**, analisi dei requisiti, gestione dei rischi e test.
+- **Funzionalità opzionale con LLM eseguito in locale**, senza inviare dati sanitari a servizi esterni. Gli output generativi richiedono controlli e conferma umana; non sostituiscono decisioni cliniche.
+
+### Progetto 1 - PressureCare
+**Monitoraggio domiciliare dell'ipertensione**
+
+Una soluzione per raccogliere e consultare misurazioni pressorie longitudinali, facilitando il monitoraggio da parte di paziente e personale sanitario.
+
+**Funzionalità attese:**
+- Inserimento delle misurazioni di pressione sistolica, diastolica e frequenza cardiaca.
+- Consultazione dello storico e rappresentazione grafica dei trend.
+- Gestione del paziente e visualizzazione della dashboard clinica.
+- Segnalazioni basate su **regole deterministiche e soglie documentate**, evitando diagnosi automatiche.
+
+**Opzionale - LLM locale:** generazione di una bozza di sintesi delle misurazioni da sottoporre a revisione del professionista sanitario.
+
+### Progetto 2 - PostOp Care
+**Monitoraggio del recupero postoperatorio**
+
+Una soluzione per registrare i dati di follow-up dopo un intervento e facilitare l'individuazione di risposte che richiedono la valutazione del personale sanitario.
+
+**Funzionalità attese:**
+- Compilazione periodica di questionari su sintomi e condizioni generali.
+- Storico delle risposte e dashboard di follow-up.
+- Evidenziazione di situazioni da verificare tramite **regole esplicite**, con logica di triage simulata.
+- Tracciamento degli eventi e degli interventi dell'operatore.
+
+**Opzionale - LLM locale:** sintesi strutturata dei diari di follow-up, sempre verificata dall'operatore.
+
+### Progetto 3 - GlucoTrack
+**Monitoraggio longitudinale dei parametri metabolici**
+
+Una soluzione per raccogliere e analizzare misurazioni metaboliche, con attenzione alla qualità, alla provenienza e alla rappresentazione dei dati.
+
+**Funzionalità attese:**
+- Registrazione di misurazioni (per esempio glicemia) con unità di misura, data, ora e origine.
+- Visualizzazione di storico, grafici e andamento temporale.
+- Dashboard per il professionista sanitario.
+- Controlli di coerenza e tracciabilità della provenienza del dato.
+
+**Opzionale - LLM locale:** estrazione di dati strutturati da note testuali, con conferma esplicita prima del salvataggio.
+
+### Progetto 4 - RehabTrack
+**Monitoraggio di un percorso riabilitativo**
+
+Una soluzione per gestire il piano riabilitativo e seguirne l'esecuzione, includendo aderenza, dolore riferito e andamento del percorso.
+
+**Funzionalità attese:**
+- Definizione e consultazione di un piano di esercizi assegnato dal professionista.
+- Registrazione delle sessioni svolte e dell'aderenza.
+- Raccolta del dolore riferito e di osservazioni successive alle sessioni.
+- Dashboard di avanzamento per il fisioterapista.
+
+**Opzionale - LLM locale:** proposta di riepilogo o compilazione assistita di contenuti strutturati, da confermare prima dell'utilizzo.
+
+> **Nota didattica:** la qualificazione come dispositivo medico, la classe di rischio e gli obblighi applicabili dipendono dalla **destinazione d'uso dichiarata** e dalle funzionalità effettive. Ogni gruppo dovrà motivare queste scelte nella documentazione; nessuno dei prototipi è destinato all'uso clinico reale.
 
 ---
 
-## **Progetto 3 – Diario Clinico e Terapie (CareDiary)**
+## 👥 Team di lavoro
 
-Il paziente può:
-- annotare sintomi e note quotidiane
-- monitorare dolore, umore, condizioni generali
-- impostare promemoria della terapia
+L'assegnazione nominativa dei componenti ai quattro progetti per l'edizione 2026/2027 sarà riportata qui quando definita. I ruoli possono essere distribuiti tra:
 
-Dati e promemoria si integrano con la dashboard del medico.
+- **Project Manager:** organizzazione del backlog, milestone e coordinamento.
+- **Analista software:** stakeholder, requisiti, SRS e tracciabilità.
+- **Software Developer:** database, backend, frontend e test.
+- **Referente qualità/rischio:** analisi dei rischi e raccolta delle evidenze documentali.
 
----
-
-# 🌟 **Progetto Demo – WoundMonitor**
-
-Il paziente o l’infermiere fotografa una ferita, lesione o neo.  
-La foto e la nota vengono salvate in uno storico.  
-Il medico visualizza l’evoluzione e lascia un giudizio semplice:
-- Monitorare
-- Consigliare visita
-- Valutazione urgente
-
-Nessuna diagnosi automatica → solo supporto informativo.
+Le responsabilità sono condivise: tutti i componenti devono conoscere l'architettura e saper spiegare le principali scelte progettuali.
 
 ---
 
-# 👥 **Team di Lavoro**
+## 🗓️ Calendario del corso
 
-### TEAM 1 - Progetto 1 (VitalBoard)
-| Studente | User Git | Ruolo |
-|---------|----------|-------|
-| Mohamed Daloul | MomoDal | Project Manager |
-| Francesco Santoianni | santofrancesco | Software Developer |
-| Aichetou Agouda | aaisha-destiny | Analista software, Software Developer |
-| Veronica Rampazzo | Vero335 |  Analista software, Software Developer |
-
-### TEAM 2 - Progetto 3 (Diario clinico)
-| Studente | User Git | Ruolo |
-|---------|----------|-------|
-| Lorenzo Del Cont Bernard | Lollooo04 | Analista Software, Sviluppo Software |
-| Matteo Mastromarino | matteo | Analista Software |
-| Alessia Jurman | alejpeg | Project Manager, Sviluppo  Software |
-| Alex Vucec | Hellux-H | Sviluppo Software |
-
-### TEAM 3 -Progetto 2 (Data Collector)
-| Studente | User Git | Ruolo |
-|---------|----------|-------|
-| Silvestrini Davide | ItsDaWae | Analista Software, Sviluppo Software |
-| Angelo Miranda | MirandaAngelo | Analista Software |
-| Saverio Sironi | GitSaveS2 | Project Manager |
-| Tommaso Perco | DeeDyne | Sviluppo Software |
-
----
-
-# 🗓️ **Calendario del Corso**
+**Legenda:** ✅ svolta · ⏳ programmata · 🔁 da recuperare
 
 | Giornata | Data | Orario | Ore | Stato |
-|----------|------|--------|------|--------|
-| venerdì | **31/10/2025** | 09:00–13:00 | 4 | ✔ |
-| venerdì | **14/11/2025** | 09:00–13:00 | 4 | ✔ |
-| venerdì | **21/11/2025** | 09:00–13:00 | 4 | ✔ |
-| lunedì  | **24/11/2025** | 09:00–13:00 | 4 | ✔ |
-| venerdì | **05/12/2025** | 09:00–13:00 | 4 | ✔ |
-| giovedì | **08/01/2026** | 14:00–18:00 | 4 | ✔ |
-| venerdì | **09/01/2026** | 14:00–18:00 | 4 | ✔ |
-| lunedì |  **12/01/2026** | 14:00–18:00 | 4 | ✔ |
-| martedì | **13/01/2026** | 14:00–18:00 | 4 | ✔ |
-| giovedì | **15/01/2026** | 14:00–18:00 | 4 | ✔ |
-| giovedì | **22/01/2026** | 14:00–18:00 | 4 | ✔ |
-| giovedì | **29/01/2026** | 09:00–13:00 | 4 | ✔ |
-| venerdì | **30/01/2026** | 14:00–18:00 | 4 | ✔ |
-| mercoledì | **04/02/2026** | 09:00–13:00 | 4 | ✔ |
-| venerdì | **06/02/2026** | 09:00–13:00 | 4 | ✔ |
+|---|---|---|---:|---|
+| Giovedì | **01/10/2026** | 14:00-18:00 | 4 | ✅ Svolta |
+| Mercoledì | **07/10/2026** | **13:00-17:00** | 4 | ✅ Svolta - orario modificato |
+| Giovedì | **08/10/2026** | 14:00-18:00 | 4 | ✅ Svolta |
+| Lunedì | 12/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
+| Giovedì | 15/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
+| Martedì | 20/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 22/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Martedì | 27/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 29/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Martedì | 10/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 12/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Martedì | 17/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 19/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Martedì | ~~24/11/2026~~ | ~~14:00-17:00~~ | 3 | 🔁 Rinviata a dicembre - data da definire |
+| Giovedì | ~~26/11/2026~~ | ~~14:00-17:00~~ | 3 | 🔁 Rinviata a dicembre - data da definire |
+| Martedì | 01/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 03/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 10/12/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
 
+**Riepilogo (al 08/10/2026)**
 
-## 🧩 **Lezione 1 – Introduzione e Normative ✔**
+- **Ore complessive previste:** 60.
+- **Ore svolte:** 12.
+- **Ore future già calendarizzate (esclusi i recuperi):** 42.
+- **Ore da riprogrammare a dicembre:** 6 (lezioni originariamente previste il 24 e 26 novembre).
+- **Ore ancora da completare:** 48.
 
-Contenuti:
-- Dispositivi Medici Software
-- App mHealth e software ad uso clinico
-- MDR 2017/745
-- IEC 62304
-- ISO 14971
-- ISO 13485
-- EN 82304-1
-- MDCG Guidelines
-- Tracciabilità
-- Introduzione all’analisi dei requisiti
+**Avviso:** le lezioni originariamente previste nella settimana **23-27 novembre 2026** sono rinviate a **dicembre 2026**. Le date di recupero saranno comunicate successivamente.
 
 ---
 
-## 🧩 **Lezione 2 – Raccolta e Analisi dei Requisiti ✔**
+## 🧩 Lezioni e contenuti
 
-Contenuti:
-- Raccolta dei requisiti
-- Identificazione stakeholder
-- Tipologie di requisiti
-- SRS (Software Requirements Specification)
-- Matrice di Tracciabilità
-- Presentazione dei progetti
-- Presentazione progetto demo
+Le attività descrivono il percorso didattico, mentre il calendario sopra riporta le date effettive. I temi delle lezioni future sono indicativi e possono essere adattati all'avanzamento dei gruppi.
+
+### Lezione 1 - Introduzione ai dispositivi medici software e quadro normativo ✅
+**01/10/2026 - 4 ore**
+
+- Software medicale, mHealth e differenza tra software sanitario e dispositivo medico.
+- Destinazione d'uso, qualificazione e classificazione secondo MDR 2017/745.
+- Ruolo delle norme IEC 62304, ISO 14971, ISO 13485 e delle linee guida MDCG.
+- Ciclo di vita del software, sicurezza, tracciabilità e documentazione.
+
+### Lezione 2 - Raccolta e analisi dei requisiti ✅
+**07/10/2026 - 4 ore (13:00-17:00)**
+
+- Identificazione degli stakeholder e tecniche di elicitation.
+- Requisiti business, utente, funzionali, non funzionali, di interfaccia, di sicurezza e regolatori.
+- Differenza tra bisogno, requisito, soluzione e criterio di accettazione.
+- SRS, priorità, criteri di qualità, testabilità e ambiguità.
+- Matrice di tracciabilità e applicazioni agli scenari sanitari.
+
+### Lezione 3 - Architettura software ✅
+**08/10/2026 - 4 ore**
+
+- Dall'analisi dei requisiti alla progettazione architetturale.
+- Architetture layered, monolitiche e a microservizi; separazione delle responsabilità.
+- Modello C4: System Context, Container, Component e Code.
+- Backend, frontend, database e API REST.
+- Scelte architetturali in ambito medicale: auditabilità, sicurezza, manutenibilità e verifica.
+
+### Lezioni successive - Sviluppo e project work ⏳
+**Dal 12/10/2026**
+
+- Presentazione e avvio dei quattro progetti, definizione della destinazione d'uso e degli stakeholder.
+- Analisi dei requisiti di progetto, SRS e backlog iniziale.
+- Modellazione del database: entità, relazioni, vincoli e SQL.
+- Python e Django: modelli, ORM, views, routing e API REST.
+- Frontend web, autenticazione, ruoli e gestione sicura dei dati.
+- Git, branch, issue e organizzazione Agile del lavoro.
+- Gestione del rischio secondo ISO 14971: pericoli, situazioni pericolose e misure di controllo.
+- Verifica e validazione: unit test, test delle API, casi di prova e tracciabilità.
+- Preparazione della documentazione tecnica e delle evidenze di progetto.
+- Integrazione **facoltativa** di funzionalità con LLM locale, con analisi specifica di rischio, privacy e supervisione umana.
+- Revisione finale, dimostrazione del prototipo e presentazione del lavoro.
 
 ---
 
-## 🧩 **Lezione 3 – Architettura, Database, SQL e API ✔**
+## 📦 Deliverable richiesti ai gruppi
 
-Contenuti:
-- Architettura software moderna  
-- Monoliti vs Microservizi  
-- Pattern architetturali (MVC, Layered, Service-Oriented)  
-- Comunicazione tra componenti  
-- API REST: principi, metodi HTTP, status code  
-- Introduzione ai Database relazionali  
-- Modellazione ER e struttura delle tabelle  
-- Chiavi primarie, chiavi esterne, vincoli, relazioni  
-- Introduzione al linguaggio SQL  
-- SELECT, INSERT, UPDATE, DELETE – panoramica completa  
-- Esercitazione pratica: creazione tabelle e query reali  
-- Introduzione agli indici e alle prestazioni di base  
+1. **Descrizione del prodotto:** scenario clinico, utenti, destinazione d'uso prevista, ambito e limiti.
+2. **Analisi dei requisiti:** stakeholder, requisiti numerati, criteri di accettazione e SRS.
+3. **Progettazione:** diagrammi di architettura (preferibilmente C4), modello ER, schema del database e descrizione delle API.
+4. **Prototipo funzionante:** database, backend Django e frontend integrati, con dati di test fittizi.
+5. **Gestione del rischio:** identificazione dei pericoli, valutazione, misure di controllo e rischi residui nel contesto didattico.
+6. **Verifica del software:** piano dei test, casi di prova, risultati ed eventuali anomalie.
+7. **Tracciabilità:** collegamento tra requisiti, componenti, rischi, misure di controllo e test.
+8. **Fascicolo tecnico semplificato:** raccolta ordinata degli elaborati e delle motivazioni progettuali.
+9. **Repository Git e presentazione finale:** codice, istruzioni di avvio, ruoli, contributi e demo.
+
+### Criteri di valutazione
+
+Saranno considerati la qualità dell'analisi dei requisiti, la coerenza dell'architettura, la qualità del prototipo, la gestione dei rischi, la completezza della documentazione, la tracciabilità, i test e la capacità di presentare e motivare le scelte effettuate.
 
 ---
 
-## 🧩 **Lezione 4 – Programmazione in Python + Introduzione a Django ✔**
+## 🛠️ Stack tecnologico di riferimento
 
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Sintassi base di Python (variabili, tipi, funzioni)
-- Strutture dati principali (liste, dict, tuple, set)
-- Esecuzione condizionale e cicli  
-- Moduli, package e import  
-- Gestione degli errori (try/except)  
-- Introduzione alle indentazioni (regola fondamentale in Python)  
-- Esercitazioni pratiche (20 piccoli programmi)  
-- Introduzione al framework Django  
-- Views, URL routing, templates  
-- Differenze tra Flask e Django  
-- Panoramica su ORM e modelli Django
+| Livello | Tecnologie |
+|---|---|
+| Backend | Python, Django, Django REST Framework |
+| Database | PostgreSQL (oppure SQLite nelle prime esercitazioni) |
+| Frontend | HTML, CSS, JavaScript e/o framework concordato |
+| Interfacce | API REST, JSON |
+| Versionamento | Git e repository condiviso |
+| Test | unittest/pytest, test Django e test API |
+| AI opzionale | LLM locale, senza trasferimento di dati clinici verso servizi esterni |
 
-## 🧩 **Lezione 5 – Django e Laboratorio Progetti ✔**
+**Importante:** usare esclusivamente **dati sintetici o fittizi** per il laboratorio. I prototipi sono destinati alla formazione e **non devono essere utilizzati per decisioni cliniche reali**.
 
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
+---
 
-## 🧩 **Lezione 6 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Models in Django
-
-## 🧩 **Lezione 7 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Views e urls in Django
-
-## 🧩 **Lezione 8 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Query, Views e Template in Django
-
-## 🧩 **Lezione 9 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Template: HTML, JS e CSS in Django
-
-## 🧩 **Lezione 10 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Analisi dei rischi
-
-## 🧩 **Lezione 11 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Fascicolo Tecnico
-
-
-## 🧩 **Lezione 12 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-- Unit test
-
-
-## 🧩 **Lezione 13 – Django e Laboratorio Progetti ✔**
-
-Contenuti:
-- Esercitazione pratica di Python e Django
-- Laboratorio su progetti di gruppo
-
-
-## 🧩 **Lezione 14 – Metodologie di sviluppo e simulazione esame ✔**
-
-Contenuti:
-- Laboratorio su progetti di gruppo
-- Metodologie di sviluppo software (WaterFall & Agile)
-- Simulazione prova d'esame
-
+*README aggiornato all'8 ottobre 2026. Calendario e assegnazioni potranno essere aggiornati in funzione delle comunicazioni didattiche.*
