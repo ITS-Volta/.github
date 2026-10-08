@@ -118,6 +118,7 @@ Le responsabilità sono condivise: tutti i componenti devono conoscere l'archite
 | Mercoledì | **07/10/2026** | **13:00-17:00** | 4 | ✅ Svolta - orario modificato |
 | Giovedì | **08/10/2026** | 14:00-18:00 | 4 | ✅ Svolta |
 | Lunedì | 12/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
+| Lunedì | 13/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 15/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
 | Martedì | 20/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 22/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
@@ -128,7 +129,6 @@ Le responsabilità sono condivise: tutti i componenti devono conoscere l'archite
 | Martedì | 17/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 19/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Martedì | ~~24/11/2026~~ | ~~14:00-17:00~~ | 3 | 🔁 Rinviata a dicembre - data da definire |
-| Giovedì | ~~26/11/2026~~ | ~~14:00-17:00~~ | 3 | 🔁 Rinviata a dicembre - data da definire |
 | Martedì | 01/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 03/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 10/12/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
