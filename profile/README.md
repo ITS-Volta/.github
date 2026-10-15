@@ -114,12 +114,12 @@ Le responsabilità sono condivise: tutti i componenti devono conoscere l'archite
 
 | Giornata | Data | Orario | Ore | Stato |
 |---|---|---|---:|---|
-| Giovedì | 01/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
+**| Giovedì | 01/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
 | Mercoledì | 07/10/2026 | 13:00-17:00 | 4 | ✅ Svolta |
 | Giovedì | 08/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
 | Lunedì | 12/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
 | Martedì | 13/10/2026 | 14:00-17:00 | 3 | ✅ Svolta |
-| Giovedì | 15/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
+| Giovedì | 15/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |**
 | Martedì | 20/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 22/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Martedì | 27/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
