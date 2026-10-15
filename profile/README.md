@@ -3,7 +3,7 @@
 **Docente:** Ing. Alessandro Pellegrino  
 **Anno formativo:** 2026/2027  
 **Durata complessiva:** 60 ore  
-**Stato aggiornamento:** 8 ottobre 2026
+**Stato aggiornamento:** 15 ottobre 2026
 
 ---
 
@@ -110,38 +110,36 @@ Le responsabilità sono condivise: tutti i componenti devono conoscere l'archite
 
 ## 🗓️ Calendario del corso
 
-**Legenda:** ✅ svolta · ⏳ programmata · 🔁 da recuperare
+**Legenda:** ✅ svolta · ⏳ programmata · 🎓 esame finale
 
 | Giornata | Data | Orario | Ore | Stato |
 |---|---|---|---:|---|
-| Giovedì | **01/10/2026** | 14:00-18:00 | 4 | ✅ Svolta |
-| Mercoledì | **07/10/2026** | **13:00-17:00** | 4 | ✅ Svolta - orario modificato |
-| Giovedì | **08/10/2026** | 14:00-18:00 | 4 | ✅ Svolta |
+| Giovedì | 01/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
+| Mercoledì | 07/10/2026 | 13:00-17:00 | 4 | ✅ Svolta |
+| Giovedì | 08/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
 | Lunedì | 12/10/2026 | 14:00-18:00 | 4 | ✅ Svolta |
-| Martedì | 13/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Martedì | 13/10/2026 | 14:00-17:00 | 3 | ✅ Svolta |
 | Giovedì | 15/10/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
 | Martedì | 20/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 22/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Martedì | 27/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 29/10/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
-| Martedì | 10/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Lunedì | 09/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 12/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Martedì | 17/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
 | Giovedì | 19/11/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
-| Martedì | ~~24/11/2026~~ | ~~14:00-17:00~~ | 3 | 🔁 Rinviata a dicembre - data da definire |
 | Martedì | 01/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
-| Giovedì | 03/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
-| Giovedì | 10/12/2026 | 14:00-18:00 | 4 | ⏳ Programmata |
+| Venerdì | 04/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 10/12/2026 | 14:00-17:00 | 3 | ⏳ Programmata |
+| Giovedì | 17/12/2026 | 14:00-18:00 | 4 | 🎓 Esame finale |
 
-**Riepilogo (al 08/10/2026)**
+**Riepilogo (al 15/10/2026)**
 
 - **Ore complessive previste:** 60.
-- **Ore svolte:** 12.
-- **Ore future già calendarizzate (esclusi i recuperi):** 42.
-- **Ore da riprogrammare a dicembre:** 6 (lezioni originariamente previste il 24 e 26 novembre).
-- **Ore ancora da completare:** 48.
-
-**Avviso:** le lezioni originariamente previste nella settimana **23-27 novembre 2026** sono rinviate a **dicembre 2026**. Le date di recupero saranno comunicate successivamente.
+- **Ore svolte fino al 13/10/2026:** 19.
+- **Ore programmate dal 15/10/2026:** 41 (incluse 4 ore di esame).
+- **Ore di attività prima dell’esame:** 56.
+- **Esame finale:** giovedì **17/12/2026**, dalle **14:00 alle 18:00** (4 ore).
 
 ---
 
@@ -192,6 +190,15 @@ Le attività descrivono il percorso didattico, mentre il calendario sopra riport
 
 ---
 
+### Esame finale - Presentazione e valutazione dei progetti 🎓
+**17/12/2026 - 4 ore (14:00-18:00)**
+
+- Presentazione dei progetti e dimostrazione dei prototipi realizzati.
+- Discussione delle scelte progettuali, della documentazione, dei rischi e dei test.
+- Valutazione finale secondo i criteri indicati di seguito.
+
+---
+
 ## 📦 Deliverable richiesti ai gruppi
 
 1. **Descrizione del prodotto:** scenario clinico, utenti, destinazione d'uso prevista, ambito e limiti.
@@ -226,4 +233,4 @@ Saranno considerati la qualità dell'analisi dei requisiti, la coerenza dell'arc
 
 ---
 
-*README aggiornato all'8 ottobre 2026. Calendario e assegnazioni potranno essere aggiornati in funzione delle comunicazioni didattiche.*
+*README aggiornato al 15 ottobre 2026. Calendario e assegnazioni potranno essere aggiornati in funzione delle comunicazioni didattiche.*
